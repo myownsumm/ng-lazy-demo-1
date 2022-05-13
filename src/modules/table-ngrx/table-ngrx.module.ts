@@ -13,3 +13,4 @@ import { TableNgrxRoutingModule } from './table-ngrx-routing.module';
 })
 export class TableNgrxModule {
 }
+

@@ -1,7 +1,7 @@
 <mat-toolbar>
   <button id="home-btn" mat-button routerLink="/">HOME</button>
-  <button mat-button routerLink="/table-ngrx" routerLinkActive="active">NGRX table</button>
-  <button mat-button routerLink="/table-ngxs" routerLinkActive="active">NGRX table</button>
+  <button mat-button [routerLink]="[{ outlets: { left: ['table-ngrx'] } }]" routerLinkActive="active">NGRX table</button>
+  <button mat-button [routerLink]="[{ outlets: { right: ['table-ngxs'] } }]" routerLinkActive="active">NGXS table</button>
 </mat-toolbar>
 
 <div class="main-container">
