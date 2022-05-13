@@ -8,6 +8,7 @@ const routes: Routes = [
     path: '',
     component: GreetingsComponent
   },
+  // Additional Dashboard added to display chunks loading feature
   {
     path: 'dashboard',
     component: DashboardComponent,
