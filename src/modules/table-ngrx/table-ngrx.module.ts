@@ -25,5 +25,8 @@ import { TableNgrxRoutingModule } from './table-ngrx-routing.module';
   providers: [],
 })
 export class TableNgrxModule {
+  constructor() {
+    console.log('TableNgrxModule');
+  }
 }
 

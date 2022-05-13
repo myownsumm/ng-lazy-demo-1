@@ -1,4 +1,12 @@
-<h3>Hello to Dashboard! Please load each side of it with a separate buttons on Top</h3>
+<h3>Please load each side of it with a separate buttons on Top</h3>
+
+<button mat-button [routerLink]="[{ outlets: { left: ['table-ngrx'] } }]" routerLinkActive="active">NGRX
+  table
+</button>
+<button mat-button [routerLink]="[{ outlets: { right: ['table-ngxs'] } }]" routerLinkActive="active">NGXS
+  table
+</button>
+
 
 <div class="flex-row">
   <div class="flex-item">
